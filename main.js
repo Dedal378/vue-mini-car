@@ -3,7 +3,7 @@ const log = (text, type, date = new Date()) => ({text, type, date})
 
 const cars = [
   car('Mercedes', 'Vision AVTR','Alex','2021','+7 929 123 45 68','./images/mercedesAvatarVision.jpg'),
-  car('Lamborghini', 'V12 Vision Gran Turismo','Alex','2020','+7 929 123 45 82','./images/lambo-V12-Vision.jpeg'),
+  car('Lamborghini', 'V12 Vision Gran Turismo','Alex','2020','+7 929 123 45 82','./images/lambo-V12-Vision.jpg'),
   car('Bugatti', 'Chiron','Alex','2019','+7 929 123 45 67','./images/bugatti.jpg'),
   car('Lamborghini', 'Millennio','Alex','2020','+7 929 123 45 82','./images/lambo-millennio.jpg'),
   car('Nio', 'P9','Alex','2020','+7 929 123 45 77','./images/niop9.jpg'),
