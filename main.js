@@ -53,8 +53,8 @@ new Vue({
     filteredCars () {
       let searchToLowerCase = this.search.toLowerCase();
       return this.cars.filter( car => {
-        // return car.name.toLowerCase().includes(searchToLowerCase) || car.model.includes(searchToLowerCase);
         return car.name.toLowerCase().indexOf(searchToLowerCase) > -1 || car.model.toLowerCase().indexOf(searchToLowerCase) > -1
+        // return car.name.toLowerCase().includes(searchToLowerCase) || car.model.includes(searchToLowerCase);
       });
     }
   },
